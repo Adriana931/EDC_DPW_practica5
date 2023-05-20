@@ -1,0 +1,111 @@
+/*Colores exactos por favor, para eso, pueden copiar la imagen de moddle a power point y utilizar
+el cuentagotas para saber el hexadecimal*/
+/*Selector universal*/
+#{
+    color: rgb(193, 103,144);
+}
+
+/*Selectores por nombre de la etiqueta*/
+    /*parte del Encabezado*/
+hr{
+    border: 10px dashed rgb(123, 176,134);   
+}
+
+nav{
+    margin: 12pxx;
+    text-align: left;
+    margin-right: 125px;
+}
+
+a{
+    color: purple;
+    font-size: 1m;
+    margin-right: 125px;
+
+}
+
+    /*parte del cuerpo de la página*/
+section {
+    background-image: url("C:/Users/alqui/Downloads/practica5/practica5/img/hero3.jpg");
+    background-position: center;
+    background-size: none;
+    background-repeat:repeat;
+    padding: 3.5em;
+    padding-left: 25%;
+    margin-top: 5px;
+}
+
+p{
+    color: chocolate;
+    font-size: 2.9em;
+    vertical-align: text-top;
+}
+
+    /*parte del pie*/
+footer{
+    text-align: left;
+}
+
+h3{
+    font-size: 1.8em;
+    word-spacing: .3em;
+}
+
+
+/*Selectores por herencia*/
+    /*parte del pie*/
+footer>p{
+    font-size: 1.2em;
+    color:dimgray;
+    line-height: .5em;
+    word-spacing: .3em;
+}
+
+footer>p>b{
+    font-size: 1.2em;
+    color: black;
+    word-spacing: .3em;
+}
+
+/*Selectores por clase*/
+
+
+/*Selectores por id*/
+#logo{
+    margin: 10px 0px 10px 100px;
+    width: 15%;
+    height: 20%;
+}
+
+#pa1{
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: -65px;
+}
+
+#pa2{
+    margin: 230px;
+    line-height: 1px;
+}
+
+#pa3{
+    margin-left: 400px;
+    font-size: 5em;
+    font-weight: bold;
+    line-height: 1px;
+    margin-top: -40px;
+}
+
+
+#pa4{
+    margin-left: 40px;
+    font-size: 5em;
+    font-weight: ligth;
+    line-height: 1px;
+}
+
+#pa5{
+    margin-left: 4px;
+    line-height: 14px;
+}
